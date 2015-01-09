@@ -1,3 +1,45 @@
+# --------------------------------------------------------------------------------------------------
+#
+# Title: A BLT RPG
+# Creator: Ashish Tamang
+# Student of the University of Waterloo
+# Created: Spring 2013
+#
+# Synopsis:
+#          A text-based Dungeon Crawling RPG made in Python. It employs the use of
+#          Object Oriented Programming to handle stats of the characters and monsters.
+#          Careful attention has been paid to balancing the game to make the playing
+#          experience as pleasurable as possible.
+#
+# Description:
+#
+#          In BLT_RPG, you are an adventure raiding a floating castle inhabited by 
+#          the notorious bandit guild, 'Neko Hooligans'. In the character creation section, 
+#          you must pick one of five classes: 
+#          
+#               i) Berserker ii) Hemomancer iii) Weaponmaster iv) Archmage v) Lone Wolf
+#          
+#          With a weapon in hand, your objective is cleave through the Hooligans, ascend
+#          the three floors of the floating castle and confront the ever-elusive 
+#          phantom leader of the guild.
+#
+#
+# Instructions:
+#
+#          The game is very easy to play. It is text-based and therefore every interaction,
+#          --whether it is traversing through the dungeon, fighting monsters 
+#          or checking one's stats-- is done through the use of I/O with Python. 
+#
+#
+# Possible Future Updates:
+#
+#          i) Cleaner Battles; easier to distinguish damage
+#         ii) The integration of a map to make traversing a bit easier
+#        iii) The introduction of a GUI
+#
+#----------------------------------------------------------------------------------------------------
+
+
 import random
 from time import time
 #Format for the Monsters/Classes
@@ -1026,7 +1068,7 @@ MapDescDict = {"OneRoomOne":"a", "OneRoomTwo":"a", "OneRoomThree":"a", "OneRoomF
 FloorOneBoss, FloorTwoBoss, FloorThreeBoss = "Undefeated", "Undefeated", "Undefeated"
 Key = [FloorOneBoss, FloorTwoBoss, FloorThreeBoss]
 CurrentPosition, Ultimate, GAMEOVER, KeyCount, Proceed, UPPoints, StatuePosition  = 23, -1, 0, 0, 0, 0, 0
-Name = input ("Welcome to Hooligan_RPG_X!\nWhat would you like to call yourself? ")
+Name = input ("Welcome to A_BLT_RPG!\nWhat would you like to call yourself? ")
 print ("What class would you like to be placed as?\n\n(1) Berserker - A greatsword wielding fighter who grows stronger the closer to death he becomes.\n(2) Hemomancer - A sorcerer who walks a bloody path. Makes use of powers akin to a vampire\n(3) Weaponmaster - A fighter proficient and lethal with any weapon. A truly agile and powerful fighter.\n(4) Archmage - A wizard renowned through the land for their knowledge of the arcane arts; possesses devastating magical prowess.\n(5) Lone Wolf - A former soldier who travels the world in solitude; well versed in modern firearms.")
 while Ultimate == -1:
     Hero = input("--> ")
