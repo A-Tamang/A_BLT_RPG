@@ -23,8 +23,8 @@ Description:
 Instructions:
 
           The game is very easy to play. It is text-based and therefore every interaction,
-          --whether it is traversing through the dungeon, fighting monsters or checking one's stats--
-          is done through the use of I/O with Python. 
+          --whether it is traversing through the dungeon, fighting monsters 
+          or checking one's stats-- is done through the use of I/O with Python. 
 
 
 Possible Future Updates:
