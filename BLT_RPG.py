@@ -28,7 +28,8 @@
 #
 #          The game is very easy to play. It is text-based and therefore every interaction,
 #          --whether it is traversing through the dungeon, fighting monsters 
-#          or checking one's stats-- is done through the use of I/O with Python. 
+#          or checking one's stats-- is done through the use of I/O with Python.
+#          Play with the window maximized in Python IDLE for the best playing experience.
 #
 #
 # Possible Future Updates:
@@ -1068,7 +1069,7 @@ MapDescDict = {"OneRoomOne":"a", "OneRoomTwo":"a", "OneRoomThree":"a", "OneRoomF
 FloorOneBoss, FloorTwoBoss, FloorThreeBoss = "Undefeated", "Undefeated", "Undefeated"
 Key = [FloorOneBoss, FloorTwoBoss, FloorThreeBoss]
 CurrentPosition, Ultimate, GAMEOVER, KeyCount, Proceed, UPPoints, StatuePosition  = 23, -1, 0, 0, 0, 0, 0
-Name = input ("Welcome to A_BLT_RPG!\nWhat would you like to call yourself? ")
+Name = input ("Welcome to A-Tamang's A_BLT_RPG!\nWhat would you like to call yourself? ")
 print ("What class would you like to be placed as?\n\n(1) Berserker - A greatsword wielding fighter who grows stronger the closer to death he becomes.\n(2) Hemomancer - A sorcerer who walks a bloody path. Makes use of powers akin to a vampire\n(3) Weaponmaster - A fighter proficient and lethal with any weapon. A truly agile and powerful fighter.\n(4) Archmage - A wizard renowned through the land for their knowledge of the arcane arts; possesses devastating magical prowess.\n(5) Lone Wolf - A former soldier who travels the world in solitude; well versed in modern firearms.")
 while Ultimate == -1:
     Hero = input("--> ")
