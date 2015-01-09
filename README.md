@@ -32,3 +32,4 @@ Possible Future Updates:
           i) Cleaner Battles; easier to distinguish damage
          ii) The integration of a map to make traversing a bit easier
         iii) The introduction of a GUI
+         iv) Integration of a visual/audio aspect
