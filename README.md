@@ -1,5 +1,4 @@
 # A_BLT_RPG
-A BLT Role Playing Game:
 
 Synopsis:
           
