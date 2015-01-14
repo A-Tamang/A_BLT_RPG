@@ -5,7 +5,7 @@ Synopsis:
           A text-based Dungeon Crawling RPG made in Python. It employs the use of
           Object Oriented Programming to handle stats of the characters and monsters.
           Careful attention has been paid to balancing the game to make the playing
-          experience as pleasurable as possible.
+          experience as enjoyable as possible.
 
 Description:
 
