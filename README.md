@@ -9,6 +9,10 @@ Synopsis:
           Careful attention has been paid to balancing the game to make the playing
           experience as enjoyable as possible.
 
+Created:  
+
+             Spring 2013
+
 Description:
 
           In BLT_RPG, you are an adventure raiding a floating castle inhabited by 
