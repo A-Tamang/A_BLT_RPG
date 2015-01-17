@@ -1,5 +1,7 @@
 # A_BLT_RPG
 
+Made in collaboration with Connor T. and Sanjeeve B.
+
 Synopsis:
           
           A text-based Dungeon Crawling RPG made in Python. It employs the use of
